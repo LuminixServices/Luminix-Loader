@@ -1,6 +1,7 @@
 function register() {
   var username = document.getElementById('username_input').value;
   var passcode = document.getElementById('passcode_input').value;
+
   var registerContainer = document.getElementsByClassName('center')[0];
   localStorage.setItem('username', username);
   localStorage.setItem('passcode', passcode);
